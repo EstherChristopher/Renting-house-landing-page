@@ -429,6 +429,7 @@ ul {
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+
 }
 .last-footer-col > div {
   margin-left: 12rem;
@@ -455,20 +456,25 @@ ul {
   background-color: var(--deep-green);
 }
 .copyright-logo {
-  width: 2vw;
+  /* width: 2vw; */
+  width: 1.3vw;
 }
 .footer-col .homes {
   align-items: center;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 369px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  h1 {
+    font-size: 1rem;
+    margin-left: 0.7rem;
+  }
   .homes {
-    font-size: 0.6rem;
-    margin-left: 1.7rem;
+    font-size: 0.6vw;
+    margin-left: 1.7vw;
   }
   img {
     width: 13px;
@@ -494,9 +500,6 @@ ul {
     margin-top: -1.9rem;
     margin-right: 1.9rem;
   }
-  .homepage {
-    /* background-color: aquamarine; */
-  }
   .first {
     font-size: 1rem;
   }
@@ -504,24 +507,24 @@ ul {
     font-size: 0.5rem;
     width: 60%;
     line-height: 1.3;
-    font-size: 0.5rem;
+    font-size: 0.45rem;
     margin-top: 0.7em;
     margin-bottom: 0.7em;
   }
   .btn-1 {
-    padding: 0.4rem 0.6rem;
-    font-size: 0.6rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.5rem;
   }
   .btn-2 {
-    padding: 0.4rem 0.5rem;
-    font-size: 0.6rem;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.5rem;
   }
   .homepage {
-    margin-left: 1.7rem;
+    margin-left: 0.7rem;
     margin-top: -3.5em;
   }
   .fresh-nuts {
-    width: 35%;
+    width: 35vw;
     height: auto;
     float: right;
     margin-left: auto;
@@ -530,102 +533,115 @@ ul {
   }
   .aboutus {
     clear: both;
-    margin-left: 1.7rem;
+    margin-left: 0.7rem;
+    position: relative;
+    margin-top: 13rem;
+    margin-bottom: -1rem;
   }
   .aboutus-house {
     margin-top: 5rem;
-    width: 45vw;
+    width: 39vw;
   }
   .aboutus-h2 {
     /* float: right; */
     margin-top: 4rem;
     width: 70%;
     max-width: 50%;
-    margin-right: -0.9rem;
-    margin-top: 4em;
+    margin-right: 0.5rem;
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 3.8vw;
+    line-height: 1;
   }
   .first-word::after {
     display: none;
   }
   .aboutus-p {
     width: 50vw;
-    margin-top: -5rem;
-    margin-right: -1.4rem;
+    margin-top: -4rem;
+    margin-right: 0.3rem;
     font-weight: 400;
     font-family: "Poppins";
-    font-size: 0.46rem;
+    font-size: 2.1vw;
     line-height: 1.3;
   }
   .aboutbtn {
     margin-right: initial;
-    margin-right: -4.9em;
-    padding: 0.3em 0.6em;
+    margin-right: 7.4em;
+    position: absolute;
+    top: 113%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    padding: 0.2em 0.5em;
     padding-bottom: 0.3rem;
     text-align: center;
   }
   .services {
     margin-top: 7.5rem;
-    margin-left: 1.7rem;
+    margin-left: 1.9rem;
   }
   .second {
-    font-size: 1.6rem;
+    font-size: 5.6vw;
   }
   .services-p {
     margin-top: 0.6em;
     line-height: 1.5;
+    font-size: 2.5vw;
+    margin-bottom: 1.7rem;
   }
   .all-images {
-    margin-top: 1.9rem;
+    margin-top: 2.7rem;
     display: initial;
-  }
-  .services .all-images > div:not(:last-child) {
-    margin-right: 47px;
   }
   .all-images > div > img {
     width: 10%;
   }
-  .all-images div:not(:empty) {
-    font-size: 0.6rem;
-    margin-top: px;
+  .services .all-images > div:not(:last-child) {
+    margin-right: 47px;
   }
   h3 {
-    font-size: 0.7rem;
+    font-size: 2.7vw;
+  }
+  .all-images div:not(:empty) {
+    font-size: 0.6rem;
   }
   .ensure-text,
   .responsive-text,
   .green-text {
     margin-top: 0.6rem;
+    font-size: 1vw;
   }
   .first-image,
   .second-image,
   .third-image {
-    padding: 1.5rem 2.5rem;
-    margin-right: initial;
+    padding: 1rem 0.5rem;
+  }
+  .leaf,
+  .checked-image,
+  .security-image {
+    margin-top: 1.5em;
   }
   .third-image {
-    width: 28em;
-  }
-  .green-text {
-    width: 75%;
+    width: auto;
   }
   .customer-review {
     margin-left: 1.7rem;
     margin-top: 3.9rem;
   }
+  .third {
+    font-size: 5vw;
+  }
   .review-p {
     line-height: 1;
-    font-size: 0.5em;
-    margin-top: 1rem;
+    font-size: 2.5vw;
+    margin-top: 0.8rem;
   }
   h4 {
-    font-size: 0.4em;
+    font-size: 2.7vw;
   }
   .anderson-text,
   .mitchell-text,
   .bennett-text {
-    font-size: 0.3rem;
+    font-size: 1.7vw;
     width: 100%;
     max-width: 80%;
     line-height: 1.3;
@@ -647,8 +663,11 @@ ul {
   footer {
     margin-top: -4rem;
   }
-  footer .footer-homes {
-    font-size: 0.4rem;
+  .second-h1 {
+    margin-left: -1.7rem;
+  }
+  .row .footer-col:first-child {
+    width: 19vw;
   }
   .couple-image {
     width: 50px;
@@ -657,7 +676,8 @@ ul {
     margin-top: -0.2rem;
   }
   .footer-text {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
+    margin-left: -1.7rem;
   }
   .footer-col h5 {
     font-size: 0.7rem;
@@ -668,26 +688,32 @@ ul {
   .last-footer-col .last-footer-1 {
     display: flex;
     margin-left: initial;
-    margin-left: 1.7rem;
+    margin-left: 0.9rem;
+    width: 60vw;
+    margin-top: -3rem;
   }
-  .last-footer-col .copyright {
-    font-size: 0.5rem;
-    margin-right: 3rem;
+  .last-footer-col {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
   }
-  .last-footer-col .last-footer-1 .copyright {
-    width: 100px !important;
+  .copyright {
+    font-size: 3.7vw;
+    margin-right: 51vw;
+    margin-top: 1rem;
   }
-  .last-footer-col > div:not(:first-child) {
-    margin-left: 3rem;
+  .copyright-logo {
+    width: 3.5vw;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 370px) and (max-width: 767px) {
   .contact > ul > ol:last-child {
     margin-right: 1.9rem;
   }
   .contact > ul > ol {
     width: auto;
-    font-size: 0.7rem;
+    font-size: 1.4vw;
     margin-right: -3px;
   }
   .contact > ul {
@@ -698,44 +724,43 @@ ul {
     margin-top: -45;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.8vw;
   }
   .homes {
     font-size: 0.6rem;
     margin-left: 6.6vw;
   }
   .first {
-    font-size: 1.7rem;
+    font-size: 3vw;
   }
   .homepage-p {
-    font-size: 0.5rem;
+    font-size: 1.3vw;
     width: 60%;
     line-height: 1.3;
-    font-size: 0.6rem;
     margin-top: 0.7em;
     margin-bottom: 0.7em;
   }
   .btn-1 {
-    padding: 0.4rem 0.6rem;
-    font-size: 0.6rem;
+    padding: 0.8vw 1.4vw;
+    font-size: 0.5rem;
   }
   .btn-2 {
-    padding: 0.4rem 0.5rem;
-    font-size: 0.6rem;
+    padding: 0.9vw 1.4vw;
+    font-size: 0.5rem;
   }
   .homepage {
     margin-left: 6.6vw;
     margin-top: -3.5em;
   }
   img {
-    width: 13px;
+    width: 11px;
   }
   .images {
     margin-left: 0.3rem;
-    margin-top: 2.4rem;
+    margin-top: 2rem;
   }
   .house-bottom {
-    margin-top: -3.5px;
+    margin-top: -2.9px;
   }
   .house-top {
     margin-top: 2.9px;
@@ -744,47 +769,7 @@ ul {
     width: 29%;
     margin-right: 3rem;
     margin-top: 4rem;
-  }
-  .aboutus {
-    clear: both;
-    margin-left: 6.6vw;
-    margin-top: 20rem;
-  }
-  .aboutus-house {
-    width: 35vw;
-    margin-top: 5rem;
-  }
-  .aboutus-h2 {
-    width: 60vw;
-    max-width: 50%;
-    margin-right: 2.4rem;
-    margin-top: 10%;
-    font-weight: 400;
-    font-size: 4vw;
-  }
-  .first-word::after {
-    display: none;
-  }
-  .aboutus-p {
-    width: 45vw;
-    margin-top: -6rem;
-    margin-right: 3rem;
-    font-weight: 400;
-    font-family: "Poppins";
-    font-size: 1.5vw;
-    line-height: 1.3;
-  }
-  .aboutus {
-    position: relative;
-  }
-  .aboutbtn {
-    position: absolute;
-    top: 105%;
-    left: 48%;
-    transform: translate(-50%, -50%);
-    padding: 0.3em 0.7em;
-    font-family: "Poppins";
-  }
+  }  
   .services {
     margin-top: 9rem;
     margin-left: 1.7rem;
@@ -853,7 +838,7 @@ ul {
   .rectangle-2,
   .rectangle-3 {
     width: 100vw;
-    max-width: 25vw;
+    max-width: 28vw;
   }
   .anderson,
   .mitchell,
@@ -865,6 +850,7 @@ ul {
   }
   .footer .footer-homes {
     width: 0.4vw;
+    /* margin-left: 1.9vw; */
   }
   .footer-text {
     font-size: 1.5vw;
@@ -884,23 +870,104 @@ ul {
   .row .footer-col:not(first-child) {
     margin-right: -45px;
   }
+  .row .footer-col:first-child {
+    margin-left: 19px;
+  }
   .last-footer-col .last-footer-1 {
     display: flex;
     margin-left: initial;
     margin-left: 1.7rem;
-    background-color: darkgoldenrod;
   }
   .copyright {
     font-size: 1.7vw;
-    margin-left: 15vw;
-    background-color: aquamarine;
-    /* width: 36vw; */
+    /* margin-left: 29vw; */
+    /* background-color: aquamarine; */
   }
   .copyright-logo {
     width: 1.5vw;
   }
   .last-footer-col .last-footer-1:not(:last-child) {
-    /* background-color: antiquewhite; */
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 500px) {
+  .aboutus {
+    clear: both;
+    margin-left: 1.7rem;
+    position: relative;
+    margin-top: 11rem;
+    margin-bottom: -1rem;
+  }
+  .aboutus-house {
+    margin-top: 22vw;
+    width: 30vw;
+  }
+  .aboutus-h2 {
+    width: 60vw;
+    max-width: 50%;
+    margin-right: 2.5rem;
+    margin-top: 18%;
+    font-weight: 400;
+    font-size: 3.3vw;
+  }
+  .aboutus-p {
+    width: 45vw;
+    margin-top: -3.7rem;
+    margin-right: 3rem;
+    font-weight: 400;
+    font-family: "Poppins";
+    font-size: 1.5vw;
+    line-height: 1.3;
+  }
+  .aboutbtn {
+    margin-right: initial;
+    margin-right: 7.4em;
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 0.2em 0.5em;
+    padding-bottom: 0.3rem;
+    text-align: center;
+  }
+    /* .first-word::after {
+    display: none;
+  } */
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .aboutus {
+    clear: both;
+    margin-left: 6.6vw;
+    margin-top: 17rem;
+    position: relative;
+  }
+  .aboutus-house {
+    width: 31vw;
+    margin-top: 5rem;
+  }
+  .aboutus-h2 {
+    width: 60vw;
+    max-width: 50%;
+    margin-right: 2.4rem;
+    margin-top: 9%;
+    font-weight: 400;
+    font-size: 3.3vw;
+  }
+  .aboutus-p {
+    width: 45vw;
+    margin-top: -5rem;
+    margin-right: 3rem;
+    font-weight: 400;
+    font-family: "Poppins";
+    font-size: 1.5vw;
+    line-height: 1.3;
+  }
+  .aboutbtn {
+    position: absolute;
+    top: 110%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    padding: 0.5em 0.9em;
+    font-family: "Poppins";
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -976,9 +1043,6 @@ ul {
     font-size: 1.5vw;
     line-height: 1.3;
   }
-  .aboutus {
-    position: relative;
-  }
   .aboutbtn {
     position: absolute;
     top: 105%;
@@ -991,6 +1055,7 @@ ul {
     clear: both;
     margin-left: 6.6vw;
     margin-top: 24rem;
+    position: relative;
   }
   .aboutus-house {
     width: 31vw;
@@ -1113,20 +1178,14 @@ ul {
     display: flex;
     margin-left: initial;
     margin-left: 1.7rem;
-    background-color: aqua;
   }
   .copyright {
     font-size: 1.7vw;
     margin-left: 15vw;
-    /* width: 36vw; */
-    background-color: antiquewhite;
   }
   .copyright-logo {
     width: 1.5vw;
   }
-  /* .last-footer-col .last-footer-1:not(:last-child) {
-
-} */
 }
 @media only screen and (min-width: 1025px) {
   .contact > ul > ol:last-child {
@@ -1188,7 +1247,6 @@ ul {
   }
   .fresh-nuts {
     width: 31%;
-    /* float: initial; */
     margin-left: 39rem;
     margin-right: 3rem;
     margin-top: 3rem;
@@ -1314,7 +1372,7 @@ ul {
   .rectangle-1,
   .rectangle-2,
   .rectangle-3 {
-    width:80vw;
+    width: 80vw;
     max-width: 25vw;
   }
   .anderson,
@@ -1327,5 +1385,31 @@ ul {
   }
   .copyright-logo {
     width: 1.3vw;
+  }
+}
+@media only screen and (min-width: 1099px) {
+  .aboutus {
+    position: relative;
+  }
+  .aboutbtn {
+    position: absolute;
+    top: 105%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    padding: 0.5em 0.9em;
+    font-family: "Poppins";
+  }
+}
+@media only screen and (min-width: 1428px) {
+  .aboutus {
+    position: relative;
+  }
+  .aboutbtn {
+    position: absolute;
+    top: 110%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    padding: 0.5em 0.9em;
+    font-family: "Poppins";
   }
 }
