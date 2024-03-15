@@ -99,10 +99,6 @@ h2 .first {
   max-width: 60%;
   font-family: "Playfair Display";
   color: var(--light-green);
-  /* word-break: break-all; */
-  /* background-color: aquamarine; */
-  /* word-wrap: break-word; */
-  /* white-space: nowrap; */
   margin-top: 14px;
 }
 .first-word::after {
@@ -182,7 +178,6 @@ p {
   clear: both;
   text-align: center;
   margin-top: 10rem;
-  /* background-color: aqua; */
 }
 .second {
   font-family: "Playfair Display";
@@ -268,8 +263,6 @@ h3 {
   color: var(--subtle-green);
   font-size: 1.1em;
   width: 100%;
-
-  /* background-color: aqua; */
   margin: 0 auto;
 }
 .review-p {
@@ -280,7 +273,6 @@ h3 {
   display: flex;
   justify-content: center;
   margin: 0.8rem 6rem;
-  /* background-color: aqua; */
 }
 .rectangle-1 {
   width: 100%;
@@ -322,7 +314,6 @@ h4 {
 }
 .review3 {
   position: relative;
-  /* background-color: aqua; */
 }
 .bennett-profile {
   position: absolute;
@@ -358,11 +349,6 @@ h4 {
   line-height: 1.5;
   font-size: 0.7rem;
   font-family: "Inter";
-  /* margin-bottom: 19rem; */
-}
-.footer-heading {
-  /* clear: right; */
-  /* margin-top: 55px; */
 }
 .footer-heading + .images {
   margin-left: initial;
@@ -388,15 +374,12 @@ ul {
   list-style: none;
 }
 .footer {
-  /* background-color: #555555; */
   padding: 70px 0;
 }
 .footer-col {
   margin-top: 5rem;
   width: 30%;
-  /* padding: 0 15px; */
   margin-left: 60px;
-  /* background-color: aqua; */
 }
 .container .row .footer-col:not(:first-child) {
   width: 15%;
@@ -429,7 +412,6 @@ ul {
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
-
 }
 .last-footer-col > div {
   margin-left: 12rem;
@@ -456,7 +438,6 @@ ul {
   background-color: var(--deep-green);
 }
 .copyright-logo {
-  /* width: 2vw; */
   width: 1.3vw;
 }
 .footer-col .homes {
@@ -543,7 +524,6 @@ ul {
     width: 39vw;
   }
   .aboutus-h2 {
-    /* float: right; */
     margin-top: 4rem;
     width: 70%;
     max-width: 50%;
@@ -614,6 +594,10 @@ ul {
   .second-image,
   .third-image {
     padding: 1rem 0.5rem;
+  }
+  .first-image {
+    width: auto;
+    margin-right: 4.6em;
   }
   .leaf,
   .checked-image,
@@ -702,6 +686,8 @@ ul {
     font-size: 3.7vw;
     margin-right: 51vw;
     margin-top: 1rem;
+    min-width: 90%;
+    text-align: center
   }
   .copyright-logo {
     width: 3.5vw;
@@ -757,7 +743,7 @@ ul {
   }
   .images {
     margin-left: 0.3rem;
-    margin-top: 2rem;
+    margin-top: 2.3rem;
   }
   .house-bottom {
     margin-top: -2.9px;
@@ -850,7 +836,6 @@ ul {
   }
   .footer .footer-homes {
     width: 0.4vw;
-    /* margin-left: 1.9vw; */
   }
   .footer-text {
     font-size: 1.5vw;
@@ -880,13 +865,9 @@ ul {
   }
   .copyright {
     font-size: 1.7vw;
-    /* margin-left: 29vw; */
-    /* background-color: aquamarine; */
   }
   .copyright-logo {
     width: 1.5vw;
-  }
-  .last-footer-col .last-footer-1:not(:last-child) {
   }
 }
 @media only screen and (min-width: 370px) and (max-width: 500px) {
@@ -929,9 +910,6 @@ ul {
     padding-bottom: 0.3rem;
     text-align: center;
   }
-    /* .first-word::after {
-    display: none;
-  } */
 }
 @media only screen and (min-width: 500px) and (max-width: 767px) {
   .aboutus {
@@ -978,7 +956,6 @@ ul {
     width: auto;
     font-size: 1.6vw;
     margin-right: -2.5px;
-    /* background-color: aqua; */
   }
   .contact > ul {
     display: flex;
